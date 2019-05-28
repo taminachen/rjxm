@@ -1,0 +1,34 @@
+@charset "UTF-8";
+h1,h2,h3,h4,h5,h6{font-weight:400}
+blockquote,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+a:active,a:hover{outline:0}
+ img{border:none}
+ li{list-style:none}
+ table{border-collapse:collapse;border-spacing:0}
+ h4,h5,h6{font-size:100%}
+ button,input,optgroup,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;outline:0}
+ pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}
+ body{line-height:24px;font:14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif}
+ hr{height:1px;margin:10px 0;border:0;clear:both}
+ a{color:#333;text-decoration:none}
+ a:hover{color:#777}
+ a cite{font-style:normal;*cursor:pointer}
+/*----填报界面----*/
+
+/*表格中的input*/
+.tb_input{
+    width: 100%;
+    height: 35px;
+    text-indent: 6px;
+    border:solid 1px #D2D2D2;
+}
+/*表格标题*/
+.lab_title{
+    color: #4784e3;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+/*红色星号*/
+.must{
+    color: red;
+}
